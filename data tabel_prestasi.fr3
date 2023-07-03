@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.0.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45110,8754258796" ReportOptions.Description.Text="" ReportOptions.LastChange="45110,8788024884" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674027803546F7003880008446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="45,35436" Left="0" Top="18,89765" Width="793,7013">
+      <TfrxMemoView Name="Memo1" Left="283,46475" Top="18,89765" Width="204,09462" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="LAPORAN TABEL_PRESTASI"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" Height="49,13389" Left="0" Top="86,92919" Width="793,7013">
+      <TfrxMemoView Name="Memo2" Left="18,89765" Top="11,33859" Width="56,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="NO"/>
+      <TfrxMemoView Name="Memo3" Left="75,5906" Top="11,33859" Width="124,72449" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="JENIS PRESTASI"/>
+      <TfrxMemoView Name="Memo4" Left="200,31509" Top="11,33859" Width="94,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="POINT"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="68,03154" Left="0" Top="196,53556" Width="793,7013" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo5" Left="18,89765" Top="18,89765" Width="56,69295" Height="18,89765" DataField="no" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="[frxDBDataset1.&#34;no&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="75,5906" Top="18,89765" Width="124,72449" Height="18,89765" DataField="jenis_prestasi" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="[frxDBDataset1.&#34;jenis_prestasi&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="200,31509" Top="18,89765" Width="94,48825" Height="18,89765" DataField="point" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" Frame.Width="2" ParentFont="False" Text="[frxDBDataset1.&#34;point&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
